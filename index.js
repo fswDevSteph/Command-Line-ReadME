@@ -1,59 +1,68 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
+
 // TODO: Create an array of questions for user input
 const questions = [
   {
     type: 'input',
     name: 'title',
-    question: 'Repository name',
+    message: 'Repository name:',
   },
   {
     type: 'input',
     name: 'description',
-    question: 'Provide a project description',
+    message: 'Provide a project description:',
   },
   {
     type: 'input',
     name: 'toc',
-    question: 'table of contents',
+    message: 'table of contents',
   },
   {
     type: 'input',
     name: 'installation',
-    question: 'installlation steps',
+    message: 'Installlation steps:',
   },
   {
     type: 'input',
     name: 'usage',
-    question: 'how to use',
+    message: 'How to use:',
   },
   {
     type: 'input',
-    name: 'installation',
-    question: 'installation steps',
+    name: 'license',
+    message: 'how to use',
   },
   {
     type: 'input',
     name: 'contributions',
-    question: 'Contributors',
+    message: 'Contributors',
   },
   {
     type: 'input',
     name: 'tests',
-    question: 'tests',
+    message: 'Tests:',
   },
   {
     type: 'input',
     name: 'questions',
-    question: 'questions',
+    message: 'Questions:',
   },
 ];
 
 // TODO: Create a function to write README file
 function promptQuestions() {
+  //playing with this to learn / trying to assign answers.title as a markdown title
+  let readMeTitle = '';
   // read the questions and prompt the user for an answer
   inquirer.prompt(questions).then((answers) => {
-    console.log(answers);
+    // if answers.title is not equal to an empty string then assign the input to readMeTitle with a hashtag else log no title
+    if (answers.title !== '') {
+      readMeTitle = `# ${answers.title}`;
+    } else {
+      console.log('no title');
+    }
+    console.log(readMeTitle);
   });
 }
 promptQuestions();
