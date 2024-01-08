@@ -1,5 +1,6 @@
 // TODO: Include packages needed for this application
-const inquirer = require('inquirer');
+import inquirer from 'inquirer';
+import { generateReadMe } from './utils/generateReadme.js';
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -53,18 +54,23 @@ const questions = [
 // TODO: Create a function to write README file
 function promptQuestions() {
   //playing with this to learn / trying to assign answers.title as a markdown title
-  let readMeTitle = '';
+  //let readMeTitle = '';
   // read the questions and prompt the user for an answer
   inquirer.prompt(questions).then((answers) => {
+    const readMeFile = generateReadMe(answers);
+    console.log(readMeFile);
+
     // if answers.title is not equal to an empty string then assign the input to readMeTitle with a hashtag else log no title
-    if (answers.title !== '') {
-      readMeTitle = `# ${answers.title}`;
-    } else {
-      console.log('no title');
-    }
-    console.log(readMeTitle);
+    //   if (answers.title !== '') {
+    //     // console.log(answers.title.split[' ']);
+    //     readMeTitle = `# ${answers.title}`;
+    //   } else {
+    //     console.log('no title');
+    //   }
+    //   console.log(readMeTitle.replaceAll(' ', '-'));
   });
 }
+// const test = ['#', 'hello', 'world'];
 promptQuestions();
 
 // TODO: Create a function to initialize app
