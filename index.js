@@ -1,5 +1,5 @@
 // TODO: Include packages needed for this application
-import inquirer from 'inquirer';
+import inquirer from 'inquirer'; //gives functionality to prompt questions
 import { generateReadMe } from './utils/generateReadme.js';
 
 // TODO: Create an array of questions for user input
