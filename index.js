@@ -49,7 +49,7 @@ const questions = [
   {
     type: 'input',
     name: 'questions',
-    message: 'Questions:',
+    message: 'What is your git username?',
   },
 ];
 

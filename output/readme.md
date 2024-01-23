@@ -1,18 +1,20 @@
 
- # 
- ![License Badge](https://img.shields.io/badge/license-GPLv3.0-blue.svg)
+  steph
+ (https://img.shields.io/badge/license-APACHEv2.0-blue.svg)
 
 ## Description 
-    d
+    this is a desc
 
 ## License 
-GPLv3.0
+APACHEv2.0
 
 ## Installation
-    npm install 
+    npm install steph
     
 ## Questions
-?
+fswDevSteph
+For more information contact me here:
+GitHub link: (https://github.com/fswDevSteph)
 
 ## Usage
 
@@ -22,5 +24,5 @@ GPLv3.0
 
 ## Tests    
     
-    //!EVERYTHING ABOVE
+    
     
