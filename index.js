@@ -18,12 +18,12 @@ const questions = [
   {
     type: 'input',
     name: 'toc',
-    message: 'table of contents',
+    message: 'Table of contents',
   },
   {
     type: 'input',
     name: 'installation',
-    message: 'Installlation steps:',
+    message: 'Installation steps:',
   },
   {
     type: 'input',
@@ -31,14 +31,15 @@ const questions = [
     message: 'How to use:',
   },
   {
-    type: 'input',
+    type: 'list',
     name: 'license',
-    message: 'how to use',
+    message: 'License:',
+    choices: ['MIT', 'APACHEv2.0', 'GPLv3.0', 'None'],
   },
   {
     type: 'input',
     name: 'contributions',
-    message: 'Contributors',
+    message: 'Contributors:',
   },
   {
     type: 'input',

@@ -1,9 +1,13 @@
 
-    # repo
+ # wfr
+ ![License Badge](https://img.shields.io/badge/license-GPLv3.0-blue.svg)
 
-    ## Description 
-    idk
+## Description 
+    fgsd
 
-    ## Installation
-    npm install repo
+## License 
+GPLv3.0
+
+## Installation
+    npm install wfr
     
