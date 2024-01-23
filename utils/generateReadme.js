@@ -11,6 +11,21 @@ ${answers.license}
 
 ## Installation
     npm install ${answers.title.toLowerCase().replaceAll(' ', '-')}
+    
+## Questions
+${answers.questions}
+
+## Usage
+
+
+## Contributing
+    
+
+## Tests    
+    
+    //!EVERYTHING ABOVE
     `;
   return readMeFile;
 }
+
+
