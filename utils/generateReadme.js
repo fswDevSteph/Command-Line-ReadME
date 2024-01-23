@@ -1,11 +1,11 @@
 export function generateReadMe(answers) {
   const readMeFile = `
-    # ${answers.title}
+ # ${answers.title}
 
-    ## Description 
+## Description 
     ${answers.description}
 
-    ## Installation
+## Installation
     npm install ${answers.title.toLowerCase().replaceAll(' ', '-')}
     `;
   return readMeFile;

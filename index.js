@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer'; //gives functionality to prompt questions
+// const inquirer = require('inquirer') older way
 import { generateReadMe } from './utils/generateReadme.js';
-
+import fs from 'fs';
 // TODO: Create an array of questions for user input
 const questions = [
   {
@@ -59,7 +60,9 @@ function promptQuestions() {
   inquirer.prompt(questions).then((answers) => {
     const readMeFile = generateReadMe(answers);
     console.log(readMeFile);
-
+    fs.writeFile('./output/readme.md', readMeFile, function () {
+      console.log('Successfull!');
+    });
     // if answers.title is not equal to an empty string then assign the input to readMeTitle with a hashtag else log no title
     //   if (answers.title !== '') {
     //     // console.log(answers.title.split[' ']);
