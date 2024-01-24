@@ -18,7 +18,7 @@ const questions = [
   {
     type: 'input',
     name: 'toc',
-    message: 'Table of contents:',
+    message: 'Table of contents(press enter):',
   },
   {
     type: 'input',
@@ -38,8 +38,8 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'Contributing guidelines:',
-    message: 'Contributing:',
+    name: 'contributing',
+    message: 'Contributing guidelines:',
   },
   {
     type: 'input',
@@ -64,6 +64,7 @@ function promptQuestions() {
   //let readMeTitle = '';
   // read the questions and prompt the user for an answer
   inquirer.prompt(questions).then((answers) => {
+    // answers.
     const readMeFile = generateReadMe(answers);
     console.log(readMeFile);
     fs.writeFile('./output/readme.md', readMeFile, function () {

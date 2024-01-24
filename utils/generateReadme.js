@@ -1,6 +1,5 @@
 export function generateReadMe(answers) {
   const readMeFile = `
-
 # ${answers.title} 
 [//]: <> (Description)
 ## Description 
@@ -9,17 +8,16 @@ ${answers.description}
 ![License](https://img.shields.io/badge/license-${answers.license}-blue.svg)
 
 ## Table of Contents
-${answers.toc}
-* [Description](#Description)
-* [Installation](#installtion)
+* [Description](#description)
+* [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#Contributing)
-* [Tests](#Tests)
-* [Questions](#Questions)
-* [License](#License)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+* [License](#license)
 
 ## Installation
- ${answers.title.toLowerCase().replaceAll(' ', '-')}
+${answers.installation}
 
 ## Usage
 ${answers.usage}
@@ -32,13 +30,13 @@ ${answers.tests}
 
 ## Questions
 For more information contact me here:
-Email: email: ${answers.email}
-GitHub link: (https://github.com/${answers.questions})
+Email: ${answers.email}
+GitHub link: [${answers.questions}](https://github.com/${answers.questions})
 
 ## License 
-${answers.license}
+[This application is covered under ${answers.license}]()
 
+  `;
 
-    `;
   return readMeFile;
 }
