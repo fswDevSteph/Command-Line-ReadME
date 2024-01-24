@@ -16,7 +16,7 @@ ${answers.toc}
 ${answers.usage}
 
 ## Contributing
-${answers.contributions}
+${answers.contributing}
 
 ## Tests
 ${answers.tests}   
@@ -24,13 +24,13 @@ ${answers.tests}
 ## Questions
 ${answers.questions}
 
+For more information contact me here:
+GitHub link: (https://github.com/${answers.questions})
+
 ## License 
 ${answers.license}
 ![License](https://img.shields.io/badge/license-${answers.license}-blue.svg)
 
-For more information contact me here:
-GitHub link: (https://github.com/${answers.questions})
-    
     `;
   return readMeFile;
 }

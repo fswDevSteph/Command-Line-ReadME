@@ -38,8 +38,8 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'contributions',
-    message: 'Contributors:',
+    name: 'Contributing guidelines:',
+    message: 'contributing:',
   },
   {
     type: 'input',
