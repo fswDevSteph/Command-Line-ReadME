@@ -14,15 +14,15 @@ ${answers.toc}
 
 ## Usage
 ${answers.usage}
-    
-## Questions
-${answers.questions}
 
 ## Contributing
 ${answers.contributions}
 
 ## Tests
 ${answers.tests}   
+
+## Questions
+${answers.questions}
 
 ## License 
 ${answers.license}
