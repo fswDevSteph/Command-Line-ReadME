@@ -1,8 +1,8 @@
 export function generateReadMe(answers) {
   const readMeFile = `
+[//]: <> (title)
 # ${answers.title} 
-![License](https://img.shields.io/badge/license-${answers.license}-blue.svg)
-
+[//]: <> (Description)
 ## Description 
 ${answers.description}
 
@@ -10,24 +10,26 @@ ${answers.description}
 ${answers.toc}
 
 ## Installation
-    npm install ${answers.title.toLowerCase().replaceAll(' ', '-')}
+ ${answers.title.toLowerCase().replaceAll(' ', '-')}
+
+## Usage
+${answers.usage}
     
 ## Questions
 ${answers.questions}
 
-For more information contact me here:
-GitHub link: (https://github.com/${answers.questions})
-
-## Usage
-
-
 ## Contributing
-    
+${answers.contributions}
 
-## Tests    
+## Tests
+${answers.tests}   
 
 ## License 
 ${answers.license}
+![License](https://img.shields.io/badge/license-${answers.license}-blue.svg)
+
+For more information contact me here:
+GitHub link: (https://github.com/${answers.questions})
     
     `;
   return readMeFile;

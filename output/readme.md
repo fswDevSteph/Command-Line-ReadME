@@ -1,24 +1,21 @@
 
-# hjaslfd 
-![License](https://img.shields.io/badge/license-APACHEv2.0-blue.svg)
+[//]: <> (This is a comment)
+# a 
 
 ## Description 
-sf
-
-## License 
-APACHEv2.0
+b
 
 ## Table of Contents
-asfdz
+c
 
 ## Installation
-    npm install hjaslfd
+    npm install a
     
 ## Questions
-fswDevSteph
+i
 
 For more information contact me here:
-GitHub link: (https://github.com/fswDevSteph)
+GitHub link: (https://github.com/i)
 
 ## Usage
 
@@ -27,6 +24,9 @@ GitHub link: (https://github.com/fswDevSteph)
     
 
 ## Tests    
-    
+
+## License 
+MIT
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
     
     
