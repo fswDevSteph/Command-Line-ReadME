@@ -83,7 +83,9 @@ function promptQuestions() {
 promptQuestions();
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  /* if i have to write node index.js to run the program, help me make sense of this */
+}
 
 // Function call to initialize app
 init();
