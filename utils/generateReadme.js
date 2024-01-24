@@ -29,12 +29,13 @@ ${answers.contributing}
 ${answers.tests}   
 
 ## Questions
-For more information contact me here:
-Email: ${answers.email}
+For more information contact me here: <br/>
+
+Email: ${answers.email} <br/>
 GitHub link: [${answers.questions}](https://github.com/${answers.questions})
 
 ## License 
-[This application is covered under ${answers.license}]()
+This application is covered under ${answers.license}
 
   `;
 

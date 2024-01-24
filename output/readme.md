@@ -1,8 +1,8 @@
 
-# stephs repo 
+# repo name 
 [//]: <> (Description)
 ## Description 
-stephs repo desc
+stephsd desc
 
 ![License](https://img.shields.io/badge/license-APACHEv2.0-blue.svg)
 
@@ -16,22 +16,24 @@ stephs repo desc
 * [License](#license)
 
 ## Installation
-step 1, 2 and 3
+tbd
 
 ## Usage
-well, theats a lot
+idk yet
 
 ## Contributing
-none yet
+nafolnapoihnpid
 
 ## Tests
-in the makinh   
+not yet   
 
 ## Questions
-For more information contact me here:
-Email: steph@gmail.copm,
-GitHub link: [fswdevsteph](https://github.com/fswdevsteph)
+For more information contact me here: <br/>
+
+Email: steph@gmail.com <br/>
+GitHub link: [fswDevSteph](https://github.com/fswDevSteph)
 
 ## License 
-APACHEv2.0
+This application is covered under APACHEv2.0
+
   
