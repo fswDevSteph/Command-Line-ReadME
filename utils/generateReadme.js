@@ -10,6 +10,13 @@ ${answers.description}
 
 ## Table of Contents
 ${answers.toc}
+* [Description](#Description)
+* [Installation](#installtion)
+* [Usage](#usage)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
+* [License](#License)
 
 ## Installation
  ${answers.title.toLowerCase().replaceAll(' ', '-')}
@@ -24,7 +31,6 @@ ${answers.contributing}
 ${answers.tests}   
 
 ## Questions
-
 For more information contact me here:
 Email: email: ${answers.email}
 GitHub link: (https://github.com/${answers.questions})
@@ -36,5 +42,3 @@ ${answers.license}
     `;
   return readMeFile;
 }
-
-

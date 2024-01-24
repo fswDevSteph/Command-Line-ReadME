@@ -18,7 +18,7 @@ const questions = [
   {
     type: 'input',
     name: 'toc',
-    message: 'Table of contents',
+    message: 'Table of contents:',
   },
   {
     type: 'input',
