@@ -39,7 +39,7 @@ const questions = [
   {
     type: 'input',
     name: 'Contributing guidelines:',
-    message: 'contributing:',
+    message: 'Contributing:',
   },
   {
     type: 'input',
@@ -50,6 +50,11 @@ const questions = [
     type: 'input',
     name: 'questions',
     message: 'What is your git username?',
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'What is your email?',
   },
 ];
 

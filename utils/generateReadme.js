@@ -1,10 +1,12 @@
 export function generateReadMe(answers) {
   const readMeFile = `
-[//]: <> (title)
+
 # ${answers.title} 
 [//]: <> (Description)
 ## Description 
 ${answers.description}
+
+![License](https://img.shields.io/badge/license-${answers.license}-blue.svg)
 
 ## Table of Contents
 ${answers.toc}
@@ -22,14 +24,14 @@ ${answers.contributing}
 ${answers.tests}   
 
 ## Questions
-${answers.questions}
 
 For more information contact me here:
+Email: email: ${answers.email}
 GitHub link: (https://github.com/${answers.questions})
 
 ## License 
 ${answers.license}
-![License](https://img.shields.io/badge/license-${answers.license}-blue.svg)
+
 
     `;
   return readMeFile;
