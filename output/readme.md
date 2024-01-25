@@ -1,10 +1,10 @@
 
-# repo name 
+# Command-Line-ReadMe 
 [//]: <> (Description)
 ## Description 
-stephsd desc
+This is a node.js project to create a readme file through the terminal.
 
-![License](https://img.shields.io/badge/license-APACHEv2.0-blue.svg)
+![License](https://img.shields.io/badge/license-GPLv3.0-blue.svg)
 
 ## Table of Contents
 * [Description](#description)
@@ -16,24 +16,24 @@ stephsd desc
 * [License](#license)
 
 ## Installation
-tbd
+There are no installation steps but it requires you have node.js and npm (node package manager) installed. You can check this by typing the following commands; node -v and npm -v. If both return version numbers, node.js and npm are installed. Ensure you have a compatible version. I'm creating this in 2024. As of now, version 18 or above will do fine.
 
 ## Usage
-idk yet
+To use, open your terminal and type "index.js" and proceed to complete your ReadMe file by answering the questions.
 
 ## Contributing
-nafolnapoihnpid
+There are none as of Jan 24th 2024.
 
 ## Tests
-not yet   
+There are none as of Jan 24th 2024.   
 
 ## Questions
 For more information contact me here: <br/>
 
-Email: steph@gmail.com <br/>
+Email: stephanie@gmail.com <br/>
 GitHub link: [fswDevSteph](https://github.com/fswDevSteph)
 
 ## License 
-This application is covered under APACHEv2.0
+This application is covered under GPLv3.0
 
   
