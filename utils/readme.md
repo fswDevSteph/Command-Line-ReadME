@@ -39,7 +39,7 @@ There are none as of Jan 24th 2024.
 
 For more information contact me here: <br/>
 
-Email: stephanie@gmail.com <br/>
+Email: fullstackwebdevsteph@gmail.com <br/>
 GitHub link: [fswDevSteph](https://github.com/fswDevSteph)
 
 ## License
